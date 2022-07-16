@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Add Member</title>
+        <style>
+            h1 {
+                display: grid;
+                place-content: center;
+            }
+
+            body {
+                font-family: Arial;
+            }
+            
+            div {
+                display: grid;
+                place-content: center;
+            }
+
+            p {
+                font-size: 18px;
+                color: rgba(56, 56, 56, 0.637);
+                font-weight: bold;
+            }
+
+            input {
+                border-style: solid;
+                border-width: 1px;
+                padding: 12px;
+                width: 300px;
+                border-radius: 5px;
+            }
+
+            .sub {
+                background-color: rgb(17, 164, 255);
+                border-style: none;
+                border-radius: 5px;
+                width: 330px;
+                color: white;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+                padding: 15px;
+                opacity: .8;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 10px;
+                transition: opacity .15s;
+            }
+
+            .sub:hover {
+                opacity: .9;
+            }
+
+            .sub:active {
+                opacity: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Add Members</h1>
+        <div>
+            <form action="addmembers/" method="post">
+                {% csrf_token %}
+                <p>Full Name</p>
+                <input type="text" name="name" id="">
+                <br>
+                <p>Age</p>
+                <input type="text" name="age" id="">
+                <br><br>
+                <input type="submit" name="Submit" class="sub">
+            </form>
+        </div>
+    </body>
+</html>
