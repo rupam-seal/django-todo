@@ -10,7 +10,7 @@ Create read update delete view data using Django, Python, HTML and CSS
 
 - CRUD operation with django
 
-# Installation
+## Installation
 
 Clone the project
 
