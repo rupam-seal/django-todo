@@ -3,8 +3,9 @@ Create read update delete view data using Django, Python, HTML and CSS
 
 ## Tech Stack
 
-**Language:** Python, HTML, CSS
-**Framework:** Django
+- Language: Python, HTML, CSS
+- Framework: Django
+- Database: SQL
 
 ## Features
 
