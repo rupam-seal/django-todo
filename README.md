@@ -16,13 +16,13 @@ Create read update delete view data using Django, Python, HTML and CSS
 Clone the project
 
 ```bash
-  git clone https://github.com/rupam-seal/members.git
+  git clone https://github.com/rupam-seal/django-members.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd members
+  cd django-members
 ```
 
 Install Dependencies
